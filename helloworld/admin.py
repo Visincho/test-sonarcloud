@@ -4,3 +4,4 @@ from django.contrib import admin
 from helloworld.models import Hello
 
 admin.site.register(Hello, admin.ModelAdmin)
+admin.site.register(World, admin.ModelAdmin)
